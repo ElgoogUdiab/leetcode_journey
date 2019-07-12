@@ -2,14 +2,14 @@
 
 ## The first solution: Brute force
 
-Here's my [first solution](solution_1.cpp).
+Here's my [first solution](brute_force.cpp).
 This is literally the first solution come into my mind, with O(1) space complexity and O(n^2) time complexity.
 
 Can it be faster? Yes!
 
 ## The second solution: Hash-table
 
-The solution is [here](solution_2.cpp).
+The solution is [here](hash_table.cpp).
 
 Hash table is usually a good way to reduce the time for finding something again and again from the same place.
 

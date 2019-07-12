@@ -6,13 +6,13 @@ Three methods will be mentioned here.
 
 ## Brute force
 
-Solution [here](solution_1.cpp)
+Solution [here](brute_force.cpp)
 
 Go through EVERY substring and see if this substring is a palindrome. O(n^3) time complexity. The horrible solution.
 
 ## Dynamic programming
 
-Solution [here](solution_2.cpp)
+Solution [here](dp.cpp)
 
 Not actually the way to solve this problem, but worth mentioning.
 
@@ -24,7 +24,7 @@ O(n^2) time complexity, O(n^2) space complexity.
 
 ## Manachar's Algorithm
 
-Solution [here](solution_3.cpp)
+Solution [here](manacher.cpp)
 
 A very very clever way to find the longest palindrome.
 
