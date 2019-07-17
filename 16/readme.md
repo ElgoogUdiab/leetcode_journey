@@ -1,6 +1,6 @@
 # 3Sum Closest
 
-Since we've already done the 3sum problem, this problem is a easy piece of cake.
+Since we've already done [3sum](/15), this problem is a easy piece of cake.
 
 Solution [here](solution.cpp)
 
