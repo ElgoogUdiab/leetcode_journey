@@ -3,7 +3,7 @@ public:
     int threeSumClosest(vector<int>& nums, int target) {
         long result=INT_MAX;// If target is negative, INT_MAX-target will definitely overflow, therefore use long.
         sort(nums.begin(), nums.end());
-        // Since j=i+1 and k starts from the last element, i can stop at the last 3rd element.
+        // Since l=i+1 and r starts from the last element, i can stop at the last 3rd element.
         for (int i = 0; i < nums.size()-2; ++i) {
             int l = i + 1;
             int r = nums.size() - 1;

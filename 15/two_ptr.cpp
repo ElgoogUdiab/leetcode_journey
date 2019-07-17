@@ -7,7 +7,7 @@ public:
         vector<vector<int>> output;
         sort(nums.begin(), nums.end());
         
-        // Since j=i+1 and k starts from the last element, i can stop at the last 3rd element.
+        // Since l=i+1 and r starts from the last element, i can stop at the last 3rd element.
         // Also, when nums[i]>0, all remaining elements are bigger than 0, therefore no more solution
         for (int i = 0; i < nums.size()-2 && nums[i]<=0; ++i) {
             // Each i repesents a 2sum puzzle, with candidate numbers nums[i+1:] and target number nums[i]
